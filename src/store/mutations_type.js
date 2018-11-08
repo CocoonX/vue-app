@@ -1,0 +1,55 @@
+export const GET_CHANNELLIST = 'GET_CHANNELLIST'
+
+export const GET_CHANNELID = 'GET_CHANNELID'
+
+export const GET_NEWSLIST = 'GET_NEWSLIST'
+
+export const GET_ARTICLE = 'GET_ARTICLE'
+
+export const GET_COLLECTION = 'GET_COLLECTION'
+
+export const GET_SEARCH = 'GET_SEARCH'
+
+export const RETURN_SEARCH = 'RETURN_SEARCH'
+
+export const IF_LOADING = 'IF_LOADING'
+
+export const ADD_HISTORY = 'ADD_HISTORY'
+
+export const REMOVE_HISTORY = 'REMOVE_HISTORY'
+
+export const CLEAR_HISTORY = 'CLEAR_HISTORY'
+
+export const LOADMORE_SEARCH = 'LOADMORE_SEARCH'
+
+export const RETURN_MORE_SEATCH = 'RETURN_MORE_SEATCH'
+
+export const ADD_COLLECTION = 'ADD_COLLECTION'
+
+export const REMOVE_COLLECTION = 'REMOVE_COLLECTION'
+// 刷新消息
+export const REFRESH_NEWS = 'REFRESH_NEWS'
+// 刷新消息返回的数量
+export const REFRESH_LENGTH = 'REFRESH_LENGTH'
+// 是否返回刷新
+export const RETURN_REFRESH = 'RETURN_REFRESH'
+
+export const LOG_TYPE = 'LOG_TYPE'
+
+export const SAVE_POSITION = 'SAVE_POSITION'
+
+export const SEND_RESET_MSG = 'SEND_RESET_MSG'
+
+export const LOGIN = 'LOGIN'
+
+export const REGISTER_IN_WECHAT = 'REGISTER_IN_WECHAT'
+
+export const GET_USER_INFO = 'GET_USER_INFO'
+
+export const SHOW_COUNT_TIME = 'SHOW_COUNT_TIME'
+
+export const GET_COLUMN = 'GET_COLUMN'
+
+export const GET_MAKER_PLATES = 'GET_MAKER_PLATES'
+
+export const GET_DISSERTATION_LIST = 'GET_DISSERTATION_LIST'

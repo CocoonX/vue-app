@@ -1,0 +1,94 @@
+.newsList {
+  height: 100%;
+  overflow: auto;
+  .news_box {
+    //position: relative;
+    min-height: 150px;
+    padding: 24px 30px;
+    border-bottom: 2px solid rgba(245,245,245,1);
+    .item-l {
+      float: left;
+      width: 65%;
+      height: 170px;
+      overflow: hidden;
+      .news_title{
+        min-height: 120px;
+      }
+    }
+    .item-r {
+      float: right;
+      width: 32%;
+      img {
+        width: 210px;
+        height: 158px;
+        //-webkit-border-radius: px2rem(6px);
+        //-moz-border-radius: px2rem(6px);
+        //border-radius: px2rem(6px);
+      }
+    }
+    .item-b{
+      width: 100%;
+      display: table-cell;
+      margin-top: px2rem(10px);
+      img {
+        margin-right: px2rem(20px);
+        width: 210px;
+        height: 158px;
+        //-webkit-border-radius: px2rem(6px);
+        //-moz-border-radius: px2rem(6px);
+        //border-radius: px2rem(6px);
+      }
+      img:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+  .news_title {
+    position: relative;
+    line-height: 42px;
+    max-height: 120px;
+    min-height: 60px;
+    font-size: 32px;
+    color: #000;
+    overflow : hidden;
+  }
+  .active {
+    color: rgba(0,0,0,.7);
+  }
+  .news_info {
+    margin-top: 20px;
+    font-size: 24px;
+    color:rgba(0,0,0,0.22);
+    .media_name {
+      margin-right: px2rem(10px);
+    }
+    .datetime {
+      float: right;
+    }
+  }
+  .news_imgs {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    height: px2rem(120px);
+    margin: px2rem(10px) 0;
+  }
+  .top{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #0056FF;
+    border-radius:6px;
+    border:2px solid rgba(146,180,247,1);
+    padding: 0 px2rem(4px);
+  }
+  .nullData {//暂无更多数据样式
+    font-size: 26px;
+    color: #999999;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+
